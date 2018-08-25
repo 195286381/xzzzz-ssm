@@ -6,6 +6,9 @@ import cn.xzzzz.test.spring01.utils.SqlSessionFactoryUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.util.List;
 
 /**
@@ -21,7 +24,18 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        mybatisTest();
+//        mybatisTest();
+        mybatisSpringTest();
+    }
+
+    private static void mybatisSpringTest() {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        // 从 applicationContext 中得到 mapper
+        RoleMapper roleMapper = ctx.getBean(RoleMapper.class);
+        Role role = new Role();
+        role.setNote("xxx");
+        role.setRoleName("xiaozhu1990");
+        roleMapper.insertRole(role);
     }
 
     private static void mybatisTest() {

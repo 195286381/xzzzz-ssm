@@ -18,7 +18,7 @@
             </dataSource>
         </environment>
     </environments>
-    <!-- 映射器 -->
+     <!--映射器-->
     <mappers>
         <package name="cn.xzzzz.test.spring01.mapper" />
     </mappers>

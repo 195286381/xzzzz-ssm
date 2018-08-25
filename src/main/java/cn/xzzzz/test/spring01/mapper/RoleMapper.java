@@ -1,9 +1,12 @@
 package cn.xzzzz.test.spring01.mapper;
 
 import cn.xzzzz.test.spring01.pojo.Role;
+import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface RoleMapper {
     // TODO Auto-generated method stub
 
@@ -19,14 +22,14 @@ public interface RoleMapper {
      * @param id
      * @return
      */
-    public int deleteRole(Long id);
+    public int deleteRole(@Param("id") Long id);
 
     /**
      * 插入角色
      * @param role
      * @return
      */
-    public int insertRole(Role role);
+    public int insertRole( Role role);
 
     /**
      * 修改角色信息
