@@ -9,26 +9,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import static org.junit.Assert.*;
 
+/**
+ * RoleMapperTest
+ *
+ * @author 10191772
+ * @since 2018/08/26
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:applicationContext.xml")
 public class RoleMapperTest {
 
     @Autowired
-//    private RoleMapper roleMapper;
+    private RoleMapper roleMapper;
 
     @Test
     public void findRoles() {
-        SqlSession sqlSession = SqlSessionFactoryUtils.getSqlSession();
-        RoleMapper mapper = sqlSession.getMapper(RoleMapper.class);
         Role role = new Role();
         role.setRoleName("age");
         role.setNote("24");
-        mapper.insertRole(role);
-        mapper.deleteRole(349L);
-        sqlSession.commit();
-        sqlSession.close();
+        roleMapper.insertRole(role);
     }
 
     @Test
