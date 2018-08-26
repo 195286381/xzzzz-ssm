@@ -18,3 +18,4 @@ POJO是DO/DTO/BO/VO的统称,禁止命名成xxxPOJO.
 
 实际项目命名:
 RoleDO.java 表示该RoleDO与数据库的某个对象对应.
+RoleMapper.java 表示该DAO层.
