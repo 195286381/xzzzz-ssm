@@ -7,7 +7,7 @@
     <!--<util:properties id="jdbcProperties" location="log4j.properties" />-->
 
     <!-- 配置 bean -->
-    <bean id="role" class="cn.xzzzz.test.spring01.pojo.Role">
+    <bean id="role" class="cn.xzzzz.test.spring01.pojo.RoleDO">
         <property name="id" value="12" />
         <property name="roleName" value="xiaozhu" />
         <property name="note" value="123" />

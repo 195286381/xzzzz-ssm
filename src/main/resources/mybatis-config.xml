@@ -3,10 +3,21 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <!-- 引入数据库属性文件 -->
     <properties resource="jdbc.properties" />
+
+    <!-- 设置类型别名 -->
     <typeAliases>
-        <typeAlias type="cn.xzzzz.test.spring01.pojo.RoleDO" alias="role" />
+        <!-- 批量定义别名, 默认类型首字母小写定义别名 (推荐) -->
+        <package name="cn.xzzzz.test.spring01.pojo" />
+
+        <!-- 单个类定义别名-->
+        <!--<typeAlias type="cn.xzzzz.test.spring01.pojo.RoleDO" alias="role" />-->
+        <!--<typeAlias type="cn.xzzzz.test.spring01.pojo.UserDO" alias="user" />-->
     </typeAliases>
+
+    <!-- 数据库环境配置 -->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC" />
@@ -18,8 +29,11 @@
             </dataSource>
         </environment>
     </environments>
+
      <!--映射器-->
     <mappers>
+        <!-- 开启自动扫描 -->
         <package name="cn.xzzzz.test.spring01.mapper" />
     </mappers>
+
 </configuration>

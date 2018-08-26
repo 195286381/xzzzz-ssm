@@ -2,15 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="cn.xzzzz.test.spring01.mapper.RoleMapper">
 
-    <select id="findRoles" resultType="role">
+    <select id="findRoles" resultType="roleDO">
         SELECT id, role_name, note FROM t_role
     </select>
 
-    <insert id="insertRole" parameterType="role">
+    <insert id="insertRole" parameterType="roleDO">
         INSERT INTO t_role( role_name, note) VALUES (#{roleName}, #{note})
     </insert>
 
-    <update id="modifyRole" parameterType="role">
+    <update id="modifyRole" parameterType="roleDO">
       UPDATE t_role SET  note = #{note}, role_name = #{roleName} where id = #{id}
     </update>
 

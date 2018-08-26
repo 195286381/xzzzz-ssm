@@ -1105,10 +1105,7 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="277" parent="6" name="t_role"/>
-    <table id="278" parent="6" name="user">
-      <Comment>用户信息表</Comment>
-      <Collation>utf8_general_ci</Collation>
-    </table>
+    <table id="278" parent="6" name="user"/>
     <column id="279" parent="277" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
@@ -1133,46 +1130,30 @@
     </key>
     <column id="283" parent="278" name="id">
       <Position>1</Position>
-      <Comment>自增ID</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="278" name="name">
+    <column id="284" parent="278" name="uname">
       <Position>2</Position>
-      <Comment>姓名</Comment>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="278" name="age">
+    <column id="285" parent="278" name="area_name">
       <Position>3</Position>
-      <Comment>年龄</Comment>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="278" name="sex">
+    <column id="286" parent="278" name="age">
       <Position>4</Position>
-      <Comment>性别</Comment>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="287" parent="278" name="id">
-      <ColNames>id</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="288" parent="278" name="PRIMARY">
+    <key id="287" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
-    </key>
-    <key id="289" parent="278" name="id">
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>id</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

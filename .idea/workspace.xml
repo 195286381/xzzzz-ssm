@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d175a9-6a99-43e9-b357-8aadfc5aee74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/mybatis注意事项.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/sql/tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ad782e9-ac85-433c-b5c5-233fbf6470d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ad782e9-ac85-433c-b5c5-233fbf6470d1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/分层领域模型规范.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/分层领域模型规范.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/应用分层.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/应用分层.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/pojo/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/xzzzz/test/spring01/mapper/RoleMapperTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +47,17 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="xiaozhu@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="xiaozhu@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="xiaozhu@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="xiaozhu: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -39,55 +65,58 @@
     <session id="-1414102565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="29" />
+          <entry key="cell" value="47" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="4019" />
+          <entry key="java" value="4813" />
           <entry key="properties" value="274" />
-          <entry key="sql" value="183" />
-          <entry key="txt" value="601" />
-          <entry key="xml" value="2995" />
+          <entry key="sql" value="446" />
+          <entry key="txt" value="1557" />
+          <entry key="xml" value="3893" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4019" />
-          <entry key="PLAIN_TEXT" value="603" />
+          <entry key="JAVA" value="4813" />
+          <entry key="PLAIN_TEXT" value="1559" />
           <entry key="Properties" value="274" />
-          <entry key="SQL" value="7" />
-          <entry key="Scratch" value="212" />
-          <entry key="XML" value="2988" />
+          <entry key="SQL" value="123" />
+          <entry key="Scratch" value="377" />
+          <entry key="XML" value="3886" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="40" />
-          <entry key="properties" value="9" />
-          <entry key="sql" value="7" />
-          <entry key="txt" value="4" />
-          <entry key="user" value="1" />
-          <entry key="xml" value="36" />
+          <entry key="class" value="7" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="67" />
+          <entry key="properties" value="12" />
+          <entry key="sql" value="12" />
+          <entry key="t_role" value="2" />
+          <entry key="txt" value="7" />
+          <entry key="user" value="6" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="Database Element" value="1" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="40" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="9" />
-          <entry key="Scratch" value="7" />
-          <entry key="XML" value="36" />
+          <entry key="CLASS" value="7" />
+          <entry key="Database Element" value="8" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="67" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="12" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="11" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
     </session>
@@ -98,15 +127,36 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/RoleDOMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -114,53 +164,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/分层领域模型规范.txt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/应用分层.txt">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,39 +183,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/Main.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#Main#0" />
-                <element signature="docComment;method#main#0;class#Main#0" />
-                <element signature="docComment;method#originalJDBCTest#0;class#Main#0" />
-                <element signature="docComment;method#springTest#0;class#Main#0" />
-                <marker date="1535249310427" expanded="true" signature="522:524" ph="..." />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-              </folding>
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -212,9 +224,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -236,22 +248,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mubai.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/dddd.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/User.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console_1.sql" />
         <option value="$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/RoleMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java" />
         <option value="$PROJECT_DIR$/docs/应用分层.txt" />
         <option value="$PROJECT_DIR$/docs/分层领域模型规范.txt" />
+        <option value="$PROJECT_DIR$/docs/编码规范/分层领域模型规范.txt" />
+        <option value="$PROJECT_DIR$/docs/编码规范/应用分层.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/UserDO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/RoleDOMapperTest.java" />
+        <option value="$PROJECT_DIR$/docs/sql相关/tables.sql" />
+        <option value="$PROJECT_DIR$/docs/misc/mybatis注意事项.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -285,9 +304,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -307,11 +325,6 @@
             <path>
               <item name="spring01" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring01" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,7 +355,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spring01" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,11 +394,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.xzzzz.test.spring01.mapper" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.xzzzz.test.spring01" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.xzzzz.test.spring01" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/misc" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs/编码规范" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,21 +419,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoleDOMapperTest.deleteRole">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.Main" />
-      <module name="spring01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.xzzzz.test.spring01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoleDOMapperTest.deleteRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserMapperTest.addUser">
+    <configuration name="RoleDOMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring01" />
       <extension name="coverage">
         <pattern>
@@ -411,13 +430,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.xzzzz.test.spring01.mapper" />
       <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.RoleDOMapperTest" />
-      <option name="METHOD_NAME" value="deleteRole" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xzzzz.test.spring01.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xzzzz.test.spring01.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.UserMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xzzzz.test.spring01.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xzzzz.test.spring01.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="addUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleDOMapperTest.findRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserMapperTest.findUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring01" />
       <extension name="coverage">
         <pattern>
@@ -426,23 +473,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.xzzzz.test.spring01.mapper" />
-      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.RoleDOMapperTest" />
-      <option name="METHOD_NAME" value="findRoles" />
+      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.findUserByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.xzzzz.test.spring01.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.xzzzz.test.spring01.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.xzzzz.test.spring01.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findUserByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.RoleDOMapperTest.findRoles" />
-      <item itemvalue="JUnit.RoleDOMapperTest.deleteRole" />
+      <item itemvalue="JUnit.UserMapperTest.findUserById" />
+      <item itemvalue="JUnit.RoleDOMapperTest" />
+      <item itemvalue="JUnit.UserMapperTest.findUserByName" />
+      <item itemvalue="JUnit.UserMapperTest" />
+      <item itemvalue="JUnit.UserMapperTest.addUser" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RoleDOMapperTest.deleteRole" />
-        <item itemvalue="JUnit.RoleDOMapperTest.findRoles" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserMapperTest.addUser" />
+        <item itemvalue="JUnit.UserMapperTest" />
+        <item itemvalue="JUnit.UserMapperTest.findUserByName" />
+        <item itemvalue="JUnit.RoleDOMapperTest" />
+        <item itemvalue="JUnit.UserMapperTest.findUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +527,8 @@
       <option name="presentableId" value="Default" />
       <updated>1535158885370</updated>
       <workItem from="1535158889819" duration="23222000" />
-      <workItem from="1535245480393" duration="4920000" />
+      <workItem from="1535245480393" duration="6763000" />
+      <workItem from="1535280766346" duration="5897000" />
     </task>
     <task id="LOCAL-00001" summary="add docs folder">
       <created>1535250265661</created>
@@ -469,43 +537,57 @@
       <option name="project" value="LOCAL" />
       <updated>1535250265661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加编码规范文件夹">
+      <created>1535250781127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535250781127</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改编码规范文件">
+      <created>1535252637423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535252637423</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoleMapperTest_findRoles - 2018.08.25 at 22h 14m 10s.xml">
-      <configuration name="RoleMapperTest.findRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 05m 18s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_findRoles - 2018.08.26 at 02h 16m 02s.xml">
-      <configuration name="RoleMapperTest.findRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 07m 16s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_findRoles - 2018.08.26 at 02h 16m 20s.xml">
-      <configuration name="RoleMapperTest.findRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 48m 04s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_findRoles - 2018.08.26 at 02h 16m 24s.xml">
-      <configuration name="RoleMapperTest.findRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 49m 30s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_findRoles - 2018.08.26 at 02h 16m 39s.xml">
-      <configuration name="RoleMapperTest.findRoles" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 49m 49s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_deleteRole - 2018.08.26 at 09h 56m 49s.xml">
-      <configuration name="RoleMapperTest.deleteRole" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 50m 37s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_deleteRole - 2018.08.26 at 09h 57m 23s.xml">
-      <configuration name="RoleMapperTest.deleteRole" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 51m 01s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_deleteRole - 2018.08.26 at 09h 57m 54s.xml">
-      <configuration name="RoleMapperTest.deleteRole" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 52m 53s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_deleteRole - 2018.08.26 at 10h 00m 27s.xml">
-      <configuration name="RoleMapperTest.deleteRole" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 54m 03s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoleMapperTest_deleteRole - 2018.08.26 at 10h 00m 50s.xml">
-      <configuration name="RoleMapperTest.deleteRole" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_addUser - 2018.08.26 at 21h 55m 15s.xml">
+      <configuration name="UserMapperTest.addUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28142000" />
+    <option name="totallyTimeSpent" value="35882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,26 +602,26 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49452555" visible="true" weight="0.3319027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5720721" visible="true" weight="0.34763947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Database" order="4" sideWeight="0.49241146" weight="0.25822604" />
-      <window_info id="Favorites" order="5" sideWeight="0.5075885" side_tool="true" weight="0.25822604" />
-      <window_info anchor="bottom" id="Database Console" weight="0.33975902" />
+      <window_info id="Database" order="4" sideWeight="0.4774775" weight="0.25822604" />
+      <window_info id="Favorites" order="5" sideWeight="0.42792794" side_tool="true" visible="true" weight="0.34763947" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28554216" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46506023" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32771084" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32771084" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3698795" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49928468" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.3698795" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.33975902" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32650602" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49928468" weight="0.33975902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.5672389" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -554,7 +636,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Database" order="4" sideWeight="0.49241146" visible="true" weight="0.25822604" />
-      <window_info id="Favorites" order="5" sideWeight="0.5075885" side_tool="true" visible="true" weight="0.25822604" />
+      <window_info id="Favorites" order="5" sideWeight="0.5075885" side_tool="true" weight="0.25822604" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.33975902" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
@@ -622,7 +704,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add docs folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docs folder" />
+    <MESSAGE value="添加编码规范文件夹" />
+    <MESSAGE value="修改编码规范文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改编码规范文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.7.RELEASE/spring-jdbc-5.0.7.RELEASE.jar!/org/springframework/jdbc/datasource/SimpleDriverDataSource.class">
@@ -668,16 +752,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/User.java" />
-    <entry file="file://$PROJECT_DIR$/spring01.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -730,23 +804,15 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/SqlSessionFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mubai.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mubai.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dddd.xml" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/cn/xzzzz/test/spring01/mapper/RoleMapperTest.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://7ad782e9-ac85-433c-b5c5-233fbf6470d1/schema/xiaozhu/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/spring01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -757,102 +823,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/编码规范/应用分层.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/编码规范/分层领域模型规范.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/SqlSessionFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dddd.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/RoleDOMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/cn/xzzzz/test/spring01/mapper/RoleMapperTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1028#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
+            <marker date="1535249310427" expanded="true" signature="522:524" ph="..." />
           </folding>
         </state>
       </provider>
@@ -864,31 +872,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/RoleDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/pojo/UserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7ad782e9-ac85-433c-b5c5-233fbf6470d1/schema/xiaozhu/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7ad782e9-ac85-433c-b5c5-233fbf6470d1/schema/xiaozhu/table/t_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ad782e9-ac85-433c-b5c5-233fbf6470d1/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/mybatis注意事项.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/sql/tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/RoleDOMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <element signature="docComment;class#Main#0" />
-            <element signature="docComment;method#main#0;class#Main#0" />
-            <element signature="docComment;method#originalJDBCTest#0;class#Main#0" />
-            <element signature="docComment;method#springTest#0;class#Main#0" />
-            <marker date="1535249310427" expanded="true" signature="522:524" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/应用分层.txt">
+    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/分层领域模型规范.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/cn/xzzzz/test/spring01/utils/ApplicationContextUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/xzzzz/test/spring01/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/xzzzz/test/spring01/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -944,11 +1072,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|spring01</last-edited>
+          <last-edited>spring01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
