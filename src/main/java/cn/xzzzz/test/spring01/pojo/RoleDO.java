@@ -1,7 +1,7 @@
 package cn.xzzzz.test.spring01.pojo;
 
 /**
- * 用户类
+ * 用户类(数据对象)
  *
  * @author zhuzhiwei
  * @since 10191772
