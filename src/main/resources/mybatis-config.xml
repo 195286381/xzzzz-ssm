@@ -5,7 +5,7 @@
 <configuration>
     <properties resource="jdbc.properties" />
     <typeAliases>
-        <typeAlias type="cn.xzzzz.test.spring01.pojo.Role" alias="role" />
+        <typeAlias type="cn.xzzzz.test.spring01.pojo.RoleDO" alias="role" />
     </typeAliases>
     <environments default="development">
         <environment id="development">

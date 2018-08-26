@@ -1,7 +1,7 @@
 package cn.xzzzz.test.spring01;
 
 import cn.xzzzz.test.spring01.mapper.RoleMapper;
-import cn.xzzzz.test.spring01.pojo.Role;
+import cn.xzzzz.test.spring01.pojo.RoleDO;
 import cn.xzzzz.test.spring01.utils.SqlSessionFactoryUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
@@ -32,7 +32,7 @@ public class Main {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         // 从 applicationContext 中得到 mapper
         RoleMapper roleMapper = ctx.getBean(RoleMapper.class);
-        Role role = new Role();
+        RoleDO role = new RoleDO();
         role.setNote("xxx");
         role.setRoleName("xiaozhu1990");
         roleMapper.insertRole(role);
@@ -41,13 +41,13 @@ public class Main {
     private static void mybatisTest() {
         SqlSession sqlSession = SqlSessionFactoryUtils.getSqlSession();
         RoleMapper roleMapper = sqlSession.getMapper(RoleMapper.class);
-        List<Role> roles = roleMapper.findRoles();
+        List<RoleDO> roles = roleMapper.findRoles();
         System.out.println(roles.toString());
         System.out.println(roles.get(0).getId());
         System.out.println(roles.get(0).getNote());
         System.out.println(roles.get(0).getRoleName());
         roleMapper.deleteRole(333L);
-        Role role = new Role();
+        RoleDO role = new RoleDO();
         role.setId(334);
         role.setNote("xiaozhu");
         role.setRoleName("xiaozhu_new");

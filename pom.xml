@@ -4,10 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 项目坐标(GAV) -->
     <groupId>cn.xzzzz.test.demo.spring01</groupId>
     <artifactId>spring01</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- 项目依赖管理 -->
     <dependencies>
         <!-- Spring 相关 -->
         <dependency>
@@ -69,6 +71,8 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!-- json 处理工具 -->
     </dependencies>
 
     <build>

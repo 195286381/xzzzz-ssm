@@ -6,7 +6,7 @@ package cn.xzzzz.test.spring01.pojo;
  * @author zhuzhiwei
  * @since 10191772
  */
-public class Role {
+public class RoleDO {
     private String roleName;
     private String note;
     private int id;

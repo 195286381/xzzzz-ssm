@@ -1,6 +1,6 @@
 package cn.xzzzz.test.spring01.mapper;
 
-import cn.xzzzz.test.spring01.pojo.Role;
+import cn.xzzzz.test.spring01.pojo.RoleDO;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -15,7 +15,7 @@ public interface RoleMapper {
      *
      * @return
      */
-    public List<Role> findRoles();
+    public List<RoleDO> findRoles();
 
     /**
      * 删除角色
@@ -29,12 +29,12 @@ public interface RoleMapper {
      * @param role
      * @return
      */
-    public int insertRole( Role role);
+    public int insertRole( RoleDO role);
 
     /**
      * 修改角色信息
      * @param role
      * @return
      */
-    public int modifyRole(Role role);
+    public int modifyRole(RoleDO role);
 }
